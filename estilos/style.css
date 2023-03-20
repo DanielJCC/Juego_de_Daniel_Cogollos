@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#cabecera{
+    text-align: center;
+    padding: 20px;
+    background-color: yellowgreen;
+}
+
+#contenido{
+    text-align: center;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+#contenido *{
+    margin: 10px;
+}
+audio{
+    display: none;
+}
+.audio{
+    display: none;
+}
+#num{
+    width: 190px;
+    height: 30px;
+    text-align: center;
+}
+
+#boton{
+    padding: 5px;
+}
+#adivinado{
+    font-size: 45px;
+    color: white;
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+}
+#mensaje{
+    display: flex;
+    justify-content: center;
+}
+#numIntentos{
+    margin: 20px;
+}
+#nuevoJuego{
+    padding: 5px;
+}
+#imagen{
+    width: 120px;
+}
+#nuevoJuego{
+    display: none;
+}
+#intentos{
+    display: none;
+}
